@@ -53,4 +53,37 @@ p{
     background-repeat: no-repeat;
     background-position:center right;
 }
+.halfarea{
+    width:100%;
+    padding:10px;
+    margin:50px;
+    box-shadow:-10px -10px 30px gray;
+    border-radius: 10px 30px;
+    
+    background-image:;
+}
 
+
+.orrange-color{
+    color:rgb(255, 111, 0)
+}
+footer p{
+    text-align: center;
+}
+.experiences{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    
+}
+
+#exfidborderimage{
+border-image: linear-gradient(blue,red);
+border-image-slice: 1;
+border-left:7px solid;
+}
+#exsidborderimage{
+    border-image: linear-gradient(rgb(51, 51, 250),rgb(0, 255, 30));
+    border-image-slice: 1;
+    border-left:7px solid;
+}
