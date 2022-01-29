@@ -1,7 +1,22 @@
-.orrange-color{
-    color: #10ff98;
+a{
+    padding:10px 40px;
+    background-image: linear-gradient(90deg,rgb(240, 255, 30),rgb(225, 51, 248));
+    text-decoration: none;
+    font-weight: 600;
 }
-body{
-    background-color: rgb(250, 248, 244);
-    font-family: ;
+.mainsection{
+    display: flex;
+    padding-left: 5%;
+    padding-bottom:20px
+}
+.halfwidth img{
+    width:100%;
+}
+.halfwidth p{
+    max-width: 70%;
+
+}
+.mainsection:first-child{
+   background-image: url(images/top-banner.png);
+   background-repeat: no-repeat;
 }
